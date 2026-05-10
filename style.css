@@ -527,7 +527,7 @@ strong { font-weight: 600; color: var(--charcoal); }
 ════════════════════════════════════════ */
 .clases-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   gap: 1.5rem;
   align-items: start;
 }
@@ -1094,7 +1094,7 @@ strong { font-weight: 600; color: var(--charcoal); }
   .contacto-info  { flex-direction: row; flex-wrap: wrap; gap: 1.5rem 3rem; }
 
   .clases-grid        { grid-template-columns: 1fr 1fr; }
-  .clase-card.featured { transform: none; }
+  .clases-grid .clase-card.featured { transform: none; }
 
   .stats-container {
     grid-template-columns: 1fr 1px 1fr;
