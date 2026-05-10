@@ -4,21 +4,22 @@
 ════════════════════════════════════════ */
 
 :root {
-  --cream:        #F4EEE6;
-  --cream-alt:    #ECE5D9;
-  --cream-dark:   #E2D9CC;
-  --lavender:     #EBE5F5;
-  --lavender-mid: #D8CEEC;
-  --purple-dark:  #3D2E65;
-  --purple:       #6B5B95;
-  --purple-light: #9B8EC0;
-  --purple-xlt:   #C4BAE0;
-  --rose:         #C4917E;
-  --taupe:        #A89880;
-  --charcoal:     #28261F;
-  --charcoal-mid: #5C5750;
-  --charcoal-lt:  #9E9690;
-  --white:        #FDFCF9;
+  /* Paleta nueva — tierra, arena y lavanda */
+  --cream:        #FAF7F2;   /* crema */
+  --cream-alt:    #E7DDD0;   /* beige arena */
+  --cream-dark:   #D9CFC4;   /* arena oscura */
+  --lavender:     #EAE0F5;   /* lavanda muy suave (fondos) */
+  --lavender-mid: #CDB7E6;   /* lavanda principal */
+  --purple-dark:  #5C4070;   /* lavanda profunda (botones, headers) */
+  --purple:       #9B80C4;   /* lavanda media */
+  --purple-light: #BBA8DC;   /* lavanda clara */
+  --purple-xlt:   #DDD0EE;   /* lavanda muy clara */
+  --rose:         #C4A090;   /* tierra/rosa cálido */
+  --taupe:        #A08870;   /* tierra taupe */
+  --charcoal:     #3D3228;   /* tierra oscura (texto principal) */
+  --charcoal-mid: #6B5E52;   /* tierra media */
+  --charcoal-lt:  #9E8E84;   /* tierra clara */
+  --white:        #FAF7F2;   /* crema como blanco */
 
   --serif:  'Cormorant Garamond', Georgia, serif;
   --sans:   'Montserrat', system-ui, sans-serif;
