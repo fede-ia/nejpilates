@@ -4,22 +4,30 @@
 ════════════════════════════════════════ */
 
 :root {
-  /* Paleta nueva — tierra, arena y lavanda */
-  --cream:        #FAF7F2;   /* crema */
-  --cream-alt:    #E7DDD0;   /* beige arena */
+  /* ── Paleta: tierra · arena · lavanda · verde agua ── */
+  --cream:        #FAF7F2;   /* crema — fondo principal */
+  --cream-alt:    #E7DDD0;   /* beige arena — secciones alt */
   --cream-dark:   #D9CFC4;   /* arena oscura */
-  --lavender:     #EAE0F5;   /* lavanda muy suave (fondos) */
-  --lavender-mid: #CDB7E6;   /* lavanda principal */
-  --purple-dark:  #5C4070;   /* lavanda profunda (botones, headers) */
-  --purple:       #9B80C4;   /* lavanda media */
-  --purple-light: #BBA8DC;   /* lavanda clara */
-  --purple-xlt:   #DDD0EE;   /* lavanda muy clara */
+
+  /* Lavanda — domina casi todo lo que era violeta */
+  --lavender:     #F0EAF9;   /* lavanda casi blanca — fondos suaves */
+  --lavender-mid: #CDB7E6;   /* lavanda pura — acento principal */
+  --purple-dark:  #8B6BAE;   /* lavanda profunda — botones, nav CTA */
+  --purple:       #CDB7E6;   /* lavanda = acento base */
+  --purple-light: #DCC9F0;   /* lavanda clara */
+  --purple-xlt:   #EDE5F8;   /* lavanda muy clara */
+
+  /* Verde agua — aparece en pocos puntos estratégicos */
+  --verde:        #BFE3D6;   /* verde agua principal */
+  --verde-light:  #DFF2EB;   /* verde agua muy suave */
+
+  /* Tierra — texto y detalles cálidos */
   --rose:         #C4A090;   /* tierra/rosa cálido */
   --taupe:        #A08870;   /* tierra taupe */
-  --charcoal:     #3D3228;   /* tierra oscura (texto principal) */
+  --charcoal:     #3D3228;   /* tierra oscura — texto */
   --charcoal-mid: #6B5E52;   /* tierra media */
   --charcoal-lt:  #9E8E84;   /* tierra clara */
-  --white:        #FAF7F2;   /* crema como blanco */
+  --white:        #FAF7F2;   /* crema */
 
   --serif:  'Cormorant Garamond', Georgia, serif;
   --sans:   'Montserrat', system-ui, sans-serif;
@@ -27,9 +35,9 @@
   --ease:   cubic-bezier(0.4, 0, 0.2, 1);
   --dur:    0.45s;
 
-  --shadow-sm: 0 2px 20px rgba(61,46,101,0.07);
-  --shadow-md: 0 8px 40px rgba(61,46,101,0.12);
-  --shadow-lg: 0 20px 60px rgba(61,46,101,0.18);
+  --shadow-sm: 0 2px 20px rgba(139,107,174,0.07);
+  --shadow-md: 0 8px 40px rgba(139,107,174,0.12);
+  --shadow-lg: 0 20px 60px rgba(139,107,174,0.18);
 
   --max: 1200px;
   --sp:  clamp(60px, 8vw, 110px);
@@ -504,9 +512,9 @@ strong { font-weight: 600; color: var(--charcoal); }
 .cert-dot {
   width: 8px; height: 8px;
   border-radius: 50%;
-  background: var(--purple);
+  background: var(--verde);        /* verde agua en bullets de certs */
   flex-shrink: 0;
-  box-shadow: 0 0 0 3px rgba(107,91,149,0.15);
+  box-shadow: 0 0 0 3px rgba(191,227,214,0.35);
 }
 .cert-item span {
   font-size: 0.88rem;
@@ -627,16 +635,16 @@ strong { font-weight: 600; color: var(--charcoal); }
 }
 .rf-icon {
   width: 32px; height: 32px;
-  background: var(--lavender);
+  background: var(--verde-light);   /* verde agua suave en iconos reformer */
   border-radius: 50%;
   display: flex; align-items: center; justify-content: center;
   font-size: 0.8rem;
-  color: var(--purple);
+  color: var(--charcoal-mid);
   flex-shrink: 0;
   margin-top: 2px;
   transition: transform var(--dur) var(--ease), background var(--dur) var(--ease);
 }
-.rf-item:hover .rf-icon { background: var(--purple); color: var(--white); transform: scale(1.1); }
+.rf-item:hover .rf-icon { background: var(--verde); color: var(--charcoal); transform: scale(1.1); }
 .rf-item h4 { font-family: var(--serif); font-size: 1rem; font-weight: 500; margin-bottom: 0.2rem; }
 .rf-item p  { margin-bottom: 0; font-size: 0.84rem; }
 
@@ -836,6 +844,7 @@ strong { font-weight: 600; color: var(--charcoal); }
   background: var(--white);
   padding: 2.5rem 2rem;
   border-radius: 3px;
+  border-bottom: 3px solid var(--verde);   /* verde agua como detalle inferior */
   box-shadow: var(--shadow-sm);
   transition: transform var(--dur) var(--ease), box-shadow var(--dur) var(--ease);
   position: relative;
