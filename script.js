@@ -8,7 +8,7 @@
 // Cambiá esta URL cuando configures el endpoint del formulario
 // Opción 1 (Formspree):   https://formspree.io/f/TU_FORM_ID
 // Opción 2 (Apps Script): https://script.google.com/macros/s/TU_ID/exec
-const FORM_ENDPOINT = null; // null = modo demo (muestra éxito sin enviar)
+const FORM_ENDPOINT = "https://script.google.com/macros/s/AKfycbxbmDTaOzQZTA_pFpBdDqR1Lr0uKlQ2ouJ9zHFOQ0qLailpT2lEZCuiiuONtp0sBl8iQg/exec";
 
 // ─── NAVBAR SCROLL ───────────────────────────────────────────
 const navbar = document.getElementById('navbar');
