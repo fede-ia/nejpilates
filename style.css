@@ -10,12 +10,12 @@
   --cream-dark:   #D9CFC4;   /* arena oscura */
 
   /* Malva Premium — tono exacto del branding NEJ Pilates */
-  --lavender:     #EDE6EB;   /* malva pálido — fondos suaves */
-  --lavender-mid: #7C5272;   /* malva puro — acento principal */
-  --purple-dark:  #5A3A52;   /* malva oscuro — botones, nav CTA, headers */
-  --purple:       #7C5272;   /* malva = acento base */
-  --purple-light: #A6829A;   /* malva claro */
-  --purple-xlt:   #D4C0CE;   /* malva muy claro */
+  --lavender:     #F0E9EE;   /* malva pálido — fondos suaves */
+  --lavender-mid: #8E6484;   /* malva puro — acento principal */
+  --purple-dark:  #6A4C65;   /* malva oscuro — botones, nav CTA, headers */
+  --purple:       #8E6484;   /* malva = acento base */
+  --purple-light: #B896AA;   /* malva claro */
+  --purple-xlt:   #DDD0D9;   /* malva muy claro */
 
   /* Verde agua — aparece en pocos puntos estratégicos */
   --verde:        #BFE3D6;   /* verde agua principal */
@@ -139,7 +139,7 @@ strong { font-weight: 600; color: var(--charcoal); }
   color: var(--white);
   box-shadow: var(--shadow-sm);
 }
-.btn-primary:hover { box-shadow: var(--shadow-md); background: #482C44; }
+.btn-primary:hover { box-shadow: var(--shadow-md); background: #5A3E56; }
 
 .btn-primary-inv {
   background: var(--white);
