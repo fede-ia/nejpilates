@@ -9,13 +9,13 @@
   --cream-alt:    #E7DDD0;   /* beige arena — secciones alt */
   --cream-dark:   #D9CFC4;   /* arena oscura */
 
-  /* Malva ciruela — color exacto del card de la clienta */
-  --lavender:     #EDE3E9;   /* ciruela pálido — fondos suaves */
-  --lavender-mid: #7A4F68;   /* ciruela puro — acento principal */
-  --purple-dark:  #5C3A4F;   /* ciruela oscuro — botones, nav CTA, headers */
-  --purple:       #7A4F68;   /* ciruela = acento base */
-  --purple-light: #A67D92;   /* ciruela claro */
-  --purple-xlt:   #D4BECA;   /* ciruela muy claro */
+  /* Malva Premium — tono exacto del branding NEJ Pilates */
+  --lavender:     #EDE6EB;   /* malva pálido — fondos suaves */
+  --lavender-mid: #7C5272;   /* malva puro — acento principal */
+  --purple-dark:  #5A3A52;   /* malva oscuro — botones, nav CTA, headers */
+  --purple:       #7C5272;   /* malva = acento base */
+  --purple-light: #A6829A;   /* malva claro */
+  --purple-xlt:   #D4C0CE;   /* malva muy claro */
 
   /* Verde agua — aparece en pocos puntos estratégicos */
   --verde:        #BFE3D6;   /* verde agua principal */
@@ -35,9 +35,9 @@
   --ease:   cubic-bezier(0.4, 0, 0.2, 1);
   --dur:    0.45s;
 
-  --shadow-sm: 0 2px 20px rgba(92,58,79,0.08);
-  --shadow-md: 0 8px 40px rgba(92,58,79,0.13);
-  --shadow-lg: 0 20px 60px rgba(92,58,79,0.18);
+  --shadow-sm: 0 2px 20px rgba(90,58,82,0.08);
+  --shadow-md: 0 8px 40px rgba(90,58,82,0.13);
+  --shadow-lg: 0 20px 60px rgba(90,58,82,0.18);
   --shadow-md: 0 8px 40px rgba(139,107,174,0.12);
   --shadow-lg: 0 20px 60px rgba(139,107,174,0.18);
 
@@ -139,7 +139,7 @@ strong { font-weight: 600; color: var(--charcoal); }
   color: var(--white);
   box-shadow: var(--shadow-sm);
 }
-.btn-primary:hover { box-shadow: var(--shadow-md); background: #4A2E40; }
+.btn-primary:hover { box-shadow: var(--shadow-md); background: #482C44; }
 
 .btn-primary-inv {
   background: var(--white);
