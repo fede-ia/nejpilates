@@ -9,13 +9,13 @@
   --cream-alt:    #E7DDD0;   /* beige arena — secciones alt */
   --cream-dark:   #D9CFC4;   /* arena oscura */
 
-  /* Lavanda — domina casi todo lo que era violeta */
-  --lavender:     #F0EAF9;   /* lavanda casi blanca — fondos suaves */
-  --lavender-mid: #CDB7E6;   /* lavanda pura — acento principal */
-  --purple-dark:  #8B6BAE;   /* lavanda profunda — botones, nav CTA */
-  --purple:       #CDB7E6;   /* lavanda = acento base */
-  --purple-light: #DCC9F0;   /* lavanda clara */
-  --purple-xlt:   #EDE5F8;   /* lavanda muy clara */
+  /* Malva Premium — reemplaza todo el lavanda/violeta */
+  --lavender:     #F5E8EA;   /* malva pálido — fondos suaves */
+  --lavender-mid: #BF6B7E;   /* malva puro — acento principal */
+  --purple-dark:  #8B4A58;   /* malva oscuro — botones, nav CTA, headers */
+  --purple:       #BF6B7E;   /* malva = acento base */
+  --purple-light: #D4909B;   /* malva claro */
+  --purple-xlt:   #EDD3D8;   /* malva muy claro */
 
   /* Verde agua — aparece en pocos puntos estratégicos */
   --verde:        #BFE3D6;   /* verde agua principal */
@@ -35,7 +35,9 @@
   --ease:   cubic-bezier(0.4, 0, 0.2, 1);
   --dur:    0.45s;
 
-  --shadow-sm: 0 2px 20px rgba(139,107,174,0.07);
+  --shadow-sm: 0 2px 20px rgba(139,74,88,0.08);
+  --shadow-md: 0 8px 40px rgba(139,74,88,0.13);
+  --shadow-lg: 0 20px 60px rgba(139,74,88,0.18);
   --shadow-md: 0 8px 40px rgba(139,107,174,0.12);
   --shadow-lg: 0 20px 60px rgba(139,107,174,0.18);
 
