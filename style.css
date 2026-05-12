@@ -139,7 +139,7 @@ strong { font-weight: 600; color: var(--charcoal); }
   color: var(--white);
   box-shadow: var(--shadow-sm);
 }
-.btn-primary:hover { box-shadow: var(--shadow-md); background: #4e3c82; }
+.btn-primary:hover { box-shadow: var(--shadow-md); background: #7A3A48; }
 
 .btn-primary-inv {
   background: var(--white);
